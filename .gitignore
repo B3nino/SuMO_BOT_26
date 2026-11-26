@@ -1,0 +1,38 @@
+# Compiled binaries & Arduino build files
+*.bin
+*.hex
+*.elf
+*.o
+*.a
+*.d
+
+# Arduino IDE temporary build directories
+build/
+output/
+__pycache__/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+
+# VS Code & IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Nn]on[Dd]istributable/
+[Tt]emp/
+desktop.ini
