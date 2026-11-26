@@ -53,7 +53,7 @@ A high-speed, dual-microcontroller autonomous robotic platform combining real-ti
 
 ---
 
-## 📌 Architecture Overview
+##  Architecture Overview
 
 This project divides robot autonomy across two dedicated ESP32 modules connected wirelessly via peer-to-peer **ESP-NOW**:
 
@@ -88,7 +88,7 @@ This project divides robot autonomy across two dedicated ESP32 modules connected
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 ├── firmware/
@@ -105,7 +105,7 @@ This project divides robot autonomy across two dedicated ESP32 modules connected
 
 ---
 
-## 🔌 Hardware Wiring & Pin Configuration
+##  Hardware Wiring & Pin Configuration
 
 ### 1. ESP32 Motor Controller to TB6612FNG
 
@@ -129,7 +129,7 @@ This project divides robot autonomy across two dedicated ESP32 modules connected
 
 ---
 
-## ⚙️ Board Flashing Settings
+##  Board Flashing Settings
 
 ### For Vision Node (`ESP32_CAM_V10`):
 - **Board**: `AI Thinker ESP32-CAM` (or `ESP32 Wrover Module`)
@@ -148,7 +148,7 @@ This project divides robot autonomy across two dedicated ESP32 modules connected
 
 ---
 
-## 🚀 Quick Setup & Deployment
+##  Quick Setup & Deployment
 
 ### Step 1: Discover Receiver MAC Address
 1. Open `tools/Get_MAC_Address/Get_MAC_Address.ino` and flash to your **Motor Driver ESP32**.
@@ -174,7 +174,7 @@ This project divides robot autonomy across two dedicated ESP32 modules connected
 
 ---
 
-## 🛠️ Tuning Guide
+##  Tuning Guide
 
 | Parameter | Location | Description | Default |
 |---|---|---|---|
